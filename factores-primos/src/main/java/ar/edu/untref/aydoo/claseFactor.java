@@ -1,5 +1,8 @@
 package ar.edu.untref.aydoo;
-
+/**
+* @Pre: El número ingresado tiene que ser natural.
+* @Post: Entrega al numero ingresado descompuesto en sus factores primos.
+*/
 public class claseFactor {
 
 	public static void factorizar(int numero){
