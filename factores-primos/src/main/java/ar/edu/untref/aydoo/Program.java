@@ -9,7 +9,7 @@ public class Program
     {
         
 		Scanner objEntrada = new Scanner(System.in);
-        System.out.println("Escribe un numero para descomponerlo en sus factores primos");
+        System.out.print("Escribe un numero para descomponerlo en sus factores primos");
         int numero = objEntrada.nextInt();
         claseFactor.factorizar(numero);
     }

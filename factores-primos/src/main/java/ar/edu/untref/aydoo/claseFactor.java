@@ -9,7 +9,7 @@ public class claseFactor {
         {
              while(numero%n==0)
              {
-                  System.out.println(n);
+                  System.out.print(n + " ");
                   numero /= n;
              }
         }
