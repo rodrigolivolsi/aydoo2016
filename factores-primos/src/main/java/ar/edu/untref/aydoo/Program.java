@@ -1,33 +1,19 @@
 package ar.edu.untref.aydoo;
 
+import java.util.Scanner; 
+
 public class Program 
 {
    
-	public static final void factorizarNumeroEnPrimos(int numero)
+	public static void main (String [ ] args) 
     {
         
-		System.out.print("\nLos factores primos del numero ingresado son " + numero + ":");
-
+		Scanner objEntrada = new Scanner(System.in);
+        System.out.println("Escribe un numero para descomponerlo en sus factores primos");
+        int numero = objEntrada.nextInt();
+        claseFactor.factorizar(numero);
+    }
 		
-		int numeroNuevo = numero;
-		int n = 2;
-
-		while(numeroNuevo != 1)
-		{
-
-			if(numeroNuevo % n == 0)
-		{
-				System.out.print(n + " ");
-				numeroNuevo = numeroNuevo /n;
-			}
-		else{
-				n++;
-
-	          	}
+		
 
 		}   
-
-	}
-
-
-}
