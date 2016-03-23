@@ -13,9 +13,10 @@ public class Program
 		int numeroNuevo = numero;
 		int n = 2;
 
-		while(numeroNuevo >= 2){
+		while(numeroNuevo != 1)
+		{
 
-			if(numeroNuevo % n == 0){
+			while(numeroNuevo % n == 0){
 
 				numeroNuevo = numeroNuevo / n;
 				System.out.print(n + " ");
