@@ -19,12 +19,11 @@ public class Program
 
 				numeroNuevo = numeroNuevo / n;
 				System.out.print(n + " ");
-
-			}else{
-
+			}
+		else{
 				n++;
 
-			}
+	          	}
 
 		}   
 
