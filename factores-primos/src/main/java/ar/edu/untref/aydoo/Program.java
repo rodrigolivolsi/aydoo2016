@@ -16,10 +16,11 @@ public class Program
 		while(numeroNuevo != 1)
 		{
 
-			while(numeroNuevo % n == 0){
+			if(numeroNuevo % n == 0)
+		{
 
-				numeroNuevo = numeroNuevo / n;
 				System.out.print(n + " ");
+				numeroNuevo = numeroNuevo /n;
 			}
 		else{
 				n++;
