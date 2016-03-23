@@ -18,7 +18,6 @@ public class Program
 
 			if(numeroNuevo % n == 0)
 		{
-
 				System.out.print(n + " ");
 				numeroNuevo = numeroNuevo /n;
 			}
