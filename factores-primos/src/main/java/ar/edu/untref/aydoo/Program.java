@@ -6,8 +6,7 @@ public class Program
 	public static final void factorizarNumeroEnPrimos(int numero)
     {
         
-
-		System.out.print("\nLos factores primos del numero ingresado son " + numero + ": ");
+		System.out.print("\nLos factores primos del numero ingresado son " + numero + ":");
 
 		
 		int numeroNuevo = numero;
